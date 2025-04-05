@@ -96,4 +96,26 @@ Develop robust ML models to predict **Post-Surgery Length of Stay (LOS)** into 4
 
 ---
 
-<pre> ## 📁 Repository Structure ```text surgiLOS/ ├── data/ # Raw and processed data (excluded from repo) │ ├── raw/ │ └── processed/ ├── notebooks/ # All Jupyter notebooks for the project │ ├── DataCleaning_Graphs.ipynb │ ├── RFC.ipynb │ └── XGB.ipynb ├── src/ # Python scripts for cleaning, modeling, utils (optional) │ ├── preprocessing.py │ ├── modeling.py │ ├── tuning.py │ └── utils.py ├── models/ # Saved model files (.pkl) ├── reports/ # Final report and presentation PDFs │ ├── Final_Report.pdf │ └── Final_Presentation.pdf ├── requirements.txt # Python dependencies ├── README.md # This beautiful monstrosity └── .gitignore # Ignoring sensitive/temporary files ``` </pre>
+## 📁 Repository Structure
+
+```text
+surgiLOS/
+├── data/                      # Raw and processed data (excluded from repo)
+│   ├── raw/
+│   └── processed/
+├── notebooks/                 # All Jupyter notebooks for the project
+│   ├── DataCleaning_Graphs.ipynb
+│   ├── RFC.ipynb
+│   └── XGB.ipynb
+├── src/                       # Python scripts for cleaning, modeling, utils (optional)
+│   ├── preprocessing.py
+│   ├── modeling.py
+│   ├── tuning.py
+│   └── utils.py
+├── models/                    # Saved model files (.pkl)
+├── reports/                   # Final report and presentation PDFs
+│   ├── Final_Report.pdf
+│   └── Final_Presentation.pdf
+├── requirements.txt           # Python dependencies
+├── README.md                  # This beautiful monstrosity
+└── .gitignore                 # Ignoring sensitive/temporary files
