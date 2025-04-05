@@ -98,3 +98,4 @@ Develop robust ML models to predict **Post-Surgery Length of Stay (LOS)** into 4
 
 ## 📁 Repository Structure
 
+surgery-los-prediction/ ├── data/ # Raw and processed data (excluded) ├── notebooks/ # Jupyter Notebooks for each project stage ├── src/ # Scripts for preprocessing, modeling, etc. ├── models/ # Trained model files (.pkl) ├── reports/ # Final Report and Presentation ├── requirements.txt # Environment dependencies ├── README.md # This file └── .gitignore # Standard ignore file
